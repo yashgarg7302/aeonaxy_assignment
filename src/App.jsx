@@ -1,15 +1,17 @@
 
 import './App.css'
 
+import Navbar from './components/Navbar.jsx'
+import Streak from './components/Streak'
+
+
 function App() {
   
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    HELLO AEONAXY I AM DOING YOUR PROJECT
+    <Navbar />
+    <Streak />
     </>
   )
 }
