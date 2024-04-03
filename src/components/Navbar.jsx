@@ -95,7 +95,7 @@ function Navbar() {
               </a>
             </div>
             <div className="relative ml-4">
-              <input
+            <input
                 type="text"
                 placeholder=""
                 className="px-4 py-2 rounded-md pl-10 bg-gray-200"
@@ -118,7 +118,9 @@ function Navbar() {
                 style={{ color: "#FFD700" }}
               />
             </div>
+            <div>
             <FontAwesomeIcon icon={faBars} className="ml-4" size="2x" />
+            </div>
           </div>
         </div>
       </div>
